@@ -3,17 +3,36 @@
   <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Homepage</title>
-    <link rel="stylesheet" href="screen.css">
+    <title>UX Connect - Thomas Manning</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=K2D:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="/screen.css">
   </head>
   <body>
-    <h1>Home</h1>
-    <nav>
-      <ul>
-        <li><a href="index.html" class="active">Home</a></li>
-        <li><a href="about.html">About</a></li>
-      </ul>
-    </nav>
+    <header>
+      <h1>UX Connect</h1>
+      <div id="buttons">
+      <button id="homeButton">Home</button>
+      <button id="searchButton">Search</button>
+      </div>
+    </header>
+    <main>
+      <img id="profilePicture" src="images/me.jpg" alt="A photo of Thomas Manning in front of pink flowers in a graduation gown">
+      <div id="nameFollow">
+        <h2>Thomas Manning</h2>
+        <button id="followButton">Follow</button>
+      </div>
+      <div id="username">@manni155</div>
+      <div id="bio">Aspiring UX Designer and Researcher based out of Lansing, Michigan</div>
+      <p><strong>Areas of Interest:</strong> UX Research, UI Design, Health Systems, Education, Information Architecture.</p>
+      <h3>Contact</h3>
+      <div id="contactGroup">
+        <input type="image" class="contact" src="/images/envelope.svg" alt="An envelope icon linking to an email">
+        <input type="image" class="contact" src="/images/linkedin.svg" alt="The LinkedIn Logo">
+        <input type="image" class="contact" src="/images/folder-fill.svg" alt="An icon of a folder linking to a portfolio">
+      </div>
+    </main>
     <script src="index.js"></script>
   </body>
 </html>

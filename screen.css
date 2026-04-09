@@ -1,4 +1,100 @@
-/* Add screen styles below */
-a.active {
-    font-weight: bold;
+body {
+    background-color: #99DDC8;
+    color: black;
+    font-family:  "K2D", sans-serif;
+    margin: 0 auto;
+}
+
+header {
+    background-color: #283F3B;
+    color: #ffffff;
+    width: 100%;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    height: 120px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-left: 30px;
+}
+
+button {
+    font-size: 36px;
+    font-family: "K2D", sans-serif;
+    font-weight: 400;
+    background-color: #556F44;
+    color: #ffffff;
+    height: 70px;
+    margin: 13px;
+    border-radius: 10px;
+}
+
+main {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+}
+
+#profilePicture {
+    width: 300px;
+    box-shadow: 4px 4px;
+    border-radius: 50%;
+    margin: 20px;
+}
+
+#nameFollow {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+h2 {
+    font-size: 48px;
+    font-weight: 600;
+    margin: 0 15px;
+}
+
+#followButton {
+    color:black;
+    font-weight: 100;
+    background-color: #659B5E;
+    font-size: 16px;
+    height: 40px;
+    width: 80px;
+}
+
+#username {
+    font-weight: 100;
+    font-size: 36px;
+    margin: 5px;
+}
+
+#bio {
+    background-color: #95BF74;
+    border-radius: 10px;
+    width: 450px;
+    font-size: 26px;
+    text-align: center;
+    padding: 25px;
+    border: 1px solid black;
+}
+
+p {
+    font-size: 24px;
+    width: 500px;
+}
+
+h3 {
+    font-size: 32px;
+}
+
+.contact {
+    height: 70px;
+    margin: 0 10px;
+}
+
+#contactGroup {
+    margin-bottom: 40px;
 }
